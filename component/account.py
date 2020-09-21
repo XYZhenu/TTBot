@@ -1513,7 +1513,7 @@ class TTAcount:
             params.update({
                 'is_saved':'1',
             })
-        elif saved is 0:
+        elif saved == 0:
             params.update({
                 'is_saved': '0',
             })

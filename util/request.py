@@ -61,7 +61,7 @@ def send_request(method,
                     if cursor == 0 or cursor:
                         return response
                     if not bool(data) and not next:
-                        if has_more is 0:
+                        if has_more == 0:
                             return response
                         logger.debug(f'[无数据返回]:{response}')
                         if response == {}:
